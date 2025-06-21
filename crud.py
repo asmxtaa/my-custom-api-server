@@ -29,5 +29,6 @@ def update_book(book_id: str, book: UpdateBook):
     return serialize_book(collection.find_one({"_id": ObjectId(book_id)}))
 
 def delete_book(book_id: str):
-    result = collection.delete_one({"_id": ObjectId(book_id)})
+    result = collection.insert_one(book.model_dump())
+
     return result.deleted_count > 0
