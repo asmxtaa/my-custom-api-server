@@ -1,12 +1,12 @@
-# 📚 Book Manager API (FastAPI + MongoDB + Streamlit)
+# Book Manager API (FastAPI + MongoDB + Streamlit)
 
-## 🚀 Overview
+## Overview
 This is a full-stack application with:
 - FastAPI backend providing custom CRUD API endpoints
 - MongoDB database for storing book data
 - Streamlit frontend for user interaction
 
-## 📂 Folder Structure
+## Folder Structure
 - `main.py`: FastAPI server
 - `frontend.py`: Streamlit app
 - `database.py`: MongoDB connection
@@ -24,7 +24,7 @@ This is a full-stack application with:
 | PUT    | `/books/{id}`    | Update book      |
 | DELETE | `/books/{id}`    | Delete book      |
 
-## ⚙️ How to Run
+##  How to Run
 
 ### 1. Clone the Repo
 ```bash
